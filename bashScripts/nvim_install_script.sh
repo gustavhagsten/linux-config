@@ -12,3 +12,4 @@ cd ~;
 # Convert dos config to unix, if the config is from MS Windows.
 sudo apt-get -y install dos2unix;
 dos2unix ~/.config/nvim/init.vim;
+sudo apt -y purge dos2unix;
