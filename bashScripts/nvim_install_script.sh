@@ -6,4 +6,6 @@ sudo apt update;
 # install neovim.
 sudo apt -y install neovim;
 # download and install config
-git clone https://github.com/gustavhlarsen01/nvim ~/.config/;
+cd ~/.config/;
+git clone https://github.com/gustavhlarsen01/nvim;
+cd ~;
